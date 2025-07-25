@@ -14,7 +14,7 @@ Este manual recopila buenas prácticas esenciales para la realización de trabaj
 * **Citación y referencias:** Guías para el uso correcto de fuentes académicas (ej., estilo APA).
 * **Preparación de presentaciones orales:** Consejos para exposiciones efectivas.
 
-Este manual se mantendrá y gestionará completamente en un repositorio GitHub, utilizando archivos en formato **Word (.docx)** para facilitar la edición y el control de versiones.
+Este manual se mantendrá y gestionará completamente en un repositorio GitHub, utilizando archivos en formato **Word** para facilitar la edición y el control de versiones.
 
 ---
 
@@ -46,8 +46,8 @@ Para contribuir al desarrollo de este manual, por favor, sigue estas buenas prá
 
 * **Clona el repositorio:**
     ```bash
-    git clone [https://github.com/LuisiCarre19/Manual-buenas-practicas-universitarias.git](https://github.com/LuisiCarre19/Manual-buenas-practicas-universitarias.git)
-    cd nombre-del-repositorio
+    git clone [https://github.com/LuisICarre19/Manual-buenas-practicas-universitarias.git](https://github.com/LuisICarre19/Manual-buenas-practicas-universitarias.git)
+    cd Manual-buenas-practicas-universitarias
     ```
 
 ### **2. Flujo de Trabajo para Nuevas Secciones o Mejoras**
@@ -71,7 +71,7 @@ Para contribuir al desarrollo de este manual, por favor, sigue estas buenas prá
 4.  **Guarda tus cambios y haz `commits` frecuentemente con mensajes claros:**
     Cada `commit` debe representar un cambio lógico y pequeño.
     ```bash
-    git add documentos/manual-practicas-universitarias.md
+    git add documentos/manual-practicas-universitarias.docx # Asegúrate de que es .docx
     # O para añadir todos los cambios en la carpeta actual:
     # git add .
     git commit -m "feat: Agrega contenido inicial a la sección de organización del equipo"
@@ -88,7 +88,6 @@ Para contribuir al desarrollo de este manual, por favor, sigue estas buenas prá
     * Asegúrate de que el PR vaya de tu rama (`feature/nombre-de-tu-rama`) a `main`.
     * Dale un título claro y una descripción detallada de los cambios.
     * **Asigna revisores** (tus compañeros de grupo) para que revisen tus contribuciones.
-    * **(Opcional):** Vincula el PR al `Issue` correspondiente (ej., `Closes #ID_del_issue`).
 
 7.  **Revisa los Pull Requests de tus compañeros:**
     * Participa activamente en la revisión de los PRs de otros.
@@ -107,8 +106,8 @@ Para contribuir al desarrollo de este manual, por favor, sigue estas buenas prá
 
 Utilizamos el sistema de `Issues` y el `Project Board` de GitHub para organizar y seguir el progreso del proyecto:
 
-* **Issues:** Cada sección del manual o tarea importante tendrá un `Issue` asignado con su respectivo responsable y descripción. Puedes ver la lista de `Issues` [aquí](https://github.com/tu-usuario/nombre-del-repositorio/issues) (reemplazar por el link real).
-* **Project Board (Kanban):** El tablero de proyecto nos permite visualizar el estado de cada tarea (Pendiente, En Progreso, En Revisión, Completado). Puedes acceder al `Project Board` [aquí](https://github.com/tu-usuario/nombre-del-repositorio/projects) (reemplazar por el link real).
+* **Issues:** Cada sección del manual o tarea importante tendrá un `Issue` asignado con su respectivo responsable y descripción. Puedes ver la lista de `Issues` [aquí](https://github.com/LuisICarre19/Manual-buenas-practicas-universitarias/issues).
+* **Project Board (Kanban):** El tablero de proyecto nos permite visualizar el estado de cada tarea (Pendiente, En Progreso, En Revisión, Completado). Puedes acceder al `Project Board` [aquí](https://github.com/LuisICarre19/Manual-buenas-practicas-universitarias/projects/1).
 
 ---
 
@@ -116,8 +115,8 @@ Utilizamos el sistema de `Issues` y el `Project Board` de GitHub para organizar 
 
 Para mantener un registro claro del desarrollo del manual, utilizamos:
 
-* **Tags:** Marcamos versiones importantes del manual (ej., `v1.0`, `v1.1`, `v2.0`) usando `tags` en GitHub.
-* **CHANGELOG.md:** Documentamos todos los cambios relevantes y adiciones en este archivo para cada versión etiquetada.
+* **Tags:** Marcamos versiones importantes del manual (ej., `v1.0`) usando `tags` en GitHub.
+* **CHANGELOG.md:** Documentamos todos los cambios relevantes y adiciones en este archivo para cada **versión etiquetada y fase de desarrollo importante**.
 
 ---
 
@@ -125,8 +124,6 @@ Para mantener un registro claro del desarrollo del manual, utilizamos:
 
 La entrega del proyecto incluirá:
 
-* **Manual en PDF:** Una versión final del manual generada a partir del archivo fuente.
+* **Manual en PDF y DOCX:** Una versión final del manual generada a partir del archivo fuente (.docx).
 * **Historial de Repositorio Completo:** Un historial de `commits` limpio y claro en GitHub.
 * **Tablero de Proyecto Actualizado:** El `Project Board` con todas las tareas completadas y su progreso.
-
----
